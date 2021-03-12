@@ -1,0 +1,11 @@
+*{
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(17, 75, 235);
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.fullCard{
+    border: 2px solid white;
+}
