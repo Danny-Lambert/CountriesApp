@@ -1,31 +1,74 @@
 *{
-    margin: 1%;
-    padding: 1%;
-    background-color: rgb(17, 75, 235);
+    /* margin: 1%;
+    padding: 1%; */
+    background-color: rgb(37, 37, 37);
     color: white;
+    text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
 .fullCard{
-    border: 2px solid white;
-    background-color: rgb(241, 225, 195);
-    width: 20%;
-    height: 10%;
+    background-color: white;
+    width: 600px;
+    height: 600px;
     display: inline-block;
+    border-radius: 5%;
+   
+   margin: 1%;
 
 }
 p{
     color: black;
     border: 2px solid black;
-    background-color: rgb(241, 225, 195);
+    background-color: rgb(253, 250, 245);
+    margin: 0.5%;
+    padding: 0.5%;
 }
 .name{
     display: block;
 }
 img{
-    width: 80%;
-    height: 30%;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background-color: rgb(253, 250, 245);
+}
+span{
+    background-color: rgb(253, 250, 245);
+    color: rgb(0, 0, 0);
+
+
+}
+.inputValue{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    background-color: rgb(253, 250, 245);
+    margin: 1%;
+    padding: 1%;
+}
+.cardTextLine{
+    display: flexbox;
+}
+.countryName{
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+.capital{
+    font-size: 150%;
+    margin-bottom: 2%;
+    text-align: start;
+
+}
+.region{
+    font-size: 150%;
+    margin-bottom: 2%;
+    text-align: start;
+
+}
+.subRegion{
+    font-size: 150%;
+    margin-bottom: 2%;
+    text-align: start;
+
 }

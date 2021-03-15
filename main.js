@@ -23,10 +23,10 @@ function initialize(countriesData) {
                 return `
                 <div class = fullCard> 
                 <img src= "${country.flag}"/>
-                <p> Country - ${country.name}</p>
-                <p> Capital - ${country.capital}</p>
-                <p> Region - ${country.region}</p>
-                <p> Sub-Region - ${country.subregion}</p>                
+                <p class = "countryName">${country.name}</p>
+                <p class = "capital"> <span style="font-weight:bold;">Capital:</span>  ${country.capital}</p>
+                <p class = "region"><span style="font-weight:bold;">Region:</span> ${country.region}</p>
+                <p class = "subRegion"><span style="font-weight:bold;">Sub-Region:</span> ${country.subregion}</p>            
                 </div>
                 `
         })
