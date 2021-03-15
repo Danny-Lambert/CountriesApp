@@ -22,6 +22,7 @@ function initialize(countriesData) {
         const newCountries = countriesData.map((country) => {
                 return `
                 <div class = fullCard> 
+                <img src= "${country.flag}"/>
                 <p> Country - ${country.name}</p>
                 <p> Capital - ${country.capital}</p>
                 <p> Region - ${country.region}</p>
